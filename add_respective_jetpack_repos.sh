@@ -1,2 +1,2 @@
-sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/common r34.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'
-sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/t234 r34.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'
+sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/common r35.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'
+sudo bash -c 'echo "deb https://repo.download.nvidia.com/jetson/t234 r35.1 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list'

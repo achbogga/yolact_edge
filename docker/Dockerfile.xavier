@@ -16,7 +16,7 @@
 # (ex. In this case, use AGX Xavier) 
 # $ docker build --build-arg L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r32.5.0-pth1.6-py3 --build-arg JETSON_PLATFORM=t194
 
-ARG L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r34.1.0-pth1.12-py3
+ARG L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r35.1.0-pth1.12-py3
 ARG JETSON_PLATFORM=t234
 
 FROM ${L4T_IMAGE}
