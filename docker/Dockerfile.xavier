@@ -9,14 +9,15 @@
 
 # ----- JETSON_PLATFORM -----
 # <platform> identifies the platform’s processor:
+# t234 for Jetson Orin AGX dev kit
 # t186 for Jetson TX2 series
 # t194 for Jetson AGX Xavier series or Jetson Xavier NX
 # t210 for Jetson Nano devices or Jetson TX1
 # (ex. In this case, use AGX Xavier) 
 # $ docker build --build-arg L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r32.5.0-pth1.6-py3 --build-arg JETSON_PLATFORM=t194
 
-ARG L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r32.4.4-pth1.6-py3
-ARG JETSON_PLATFORM=t194
+ARG L4T_IMAGE=nvcr.io/nvidia/l4t-pytorch:r34.1.0-pth1.12-py3
+ARG JETSON_PLATFORM=t234
 
 FROM ${L4T_IMAGE}
 
