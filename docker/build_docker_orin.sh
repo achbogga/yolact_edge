@@ -1,0 +1,1 @@
+docker build -t yolact_edge -f Dockerfile.orin .

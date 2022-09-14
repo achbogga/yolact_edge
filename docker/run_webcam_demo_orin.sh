@@ -10,4 +10,4 @@ docker run -it --rm --net=host --privileged \
                            --video_multiframe=2 \
                            --trt_batch_size 2 \
                            --video=0 \
-                           --calib_images ./data/coco/images
+                           --calib_images ./data/coco/calib_images
